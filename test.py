@@ -11,16 +11,5 @@ class Student:
         self.age = age
         self.grade = grade
     
-    def display_info(self):
-        """显示学生信息"""
-        print(f"学号: {self.student_id}")
-        print(f"姓名: {self.name}")
-        print(f"年龄: {self.age}")
-        print(f"成绩: {self.grade}")
-        print("-" * 30)
 
-    
-    # 字典推导式示例
-    squares = {x: x**2 for x in range(1, 6)}
-    print(f"数字平方字典: {squares}")
 
